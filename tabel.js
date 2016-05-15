@@ -29,7 +29,6 @@ p.draw = function() {
   if(p.selected){
     p.image(p.BubbleImage, p.x, p.y, p.BubbleImage.width/6 , p.BubbleImage.width/6 );
   }
-
 }
 
 p.check = function(mouseX,mouseY)
